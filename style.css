@@ -1,0 +1,92 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    color: #333;
+    background-image: url("images/bg.jpg");
+    background-size: cover;
+}
+  
+.homebutton {  
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 2%;
+    padding: 20px;
+}
+
+header {
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 36px;
+    margin: 0;
+}
+
+nav {
+    background-color: #333;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 16px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+.main-content {
+    padding: 20px;
+    text-align: center;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    font-size: 14px;
+}
+
+.team > p::first-letter {
+    font-weight: bold;
+    font-style:italic;
+}
+
+.team > table {
+    border-style: none;
+}
+
+.faq > ul > li > p::first-letter {
+    font-weight: bold;
+    font-style:italic;
+}
+
+table {
+    border-collapse: collapse;
+    border-color: #333;
+    border-style: double;
+}
+
+footer p {
+    margin: 0;
+}
+
+.parent {
+    overflow: auto;
+    text-align: center;
+}
+
+.child {
+    float: left;
+    width: 33%;
+}
+
+.clearfix {
+    clear: both;
+}
